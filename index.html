@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forever Us</title>
+    <meta
+      name="description"
+      content="A romantic website celebrating love, memories, and a beautiful future together."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand">Forever Us</div>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="#story">Our Story</a>
+          <a href="#moments">Moments</a>
+          <a href="#letter">Letter</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" id="home">
+          <div class="hero-copy">
+            <p class="eyebrow">A love that keeps blooming</p>
+            <h1>Every day with you feels like home.</h1>
+            <p class="subtitle">
+              This is our little corner of the world — a place for memories, laughter,
+              late-night talks, and all the magic we share.
+            </p>
+            <div class="cta-row">
+              <a class="button primary" href="#story">Read our story</a>
+              <a class="button secondary" href="#moments">See our memories</a>
+            </div>
+            <div class="stats" aria-label="Our relationship statistics">
+              <div>
+                <strong id="love-days">0</strong>
+                <span>days together</span>
+              </div>
+              <div>
+                <strong>∞</strong>
+                <span>reasons to smile</span>
+              </div>
+              <div>
+                <strong>1</strong>
+                <span>forever</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-card" aria-label="Illustrated couple card">
+            <div class="portrait">
+              <div class="sun"></div>
+              <div class="heart heart-one"></div>
+              <div class="heart heart-two"></div>
+              <div class="figure figure-left">
+                <span class="head"></span>
+                <span class="body"></span>
+              </div>
+              <div class="figure figure-right">
+                <span class="head"></span>
+                <span class="body"></span>
+              </div>
+            </div>
+            <div class="card-caption">
+              <span>From the very first hello</span>
+              <strong>to forever and beyond.</strong>
+            </div>
+          </div>
+        </section>
+
+        <section class="story" id="story">
+          <div class="section-heading">
+            <p class="eyebrow">Our story</p>
+            <h2>Two hearts, one beautiful journey.</h2>
+          </div>
+
+          <div class="story-grid">
+            <article>
+              <span class="story-index">01</span>
+              <h3>The beginning</h3>
+              <p>
+                We met in a moment that felt like destiny — a spark, a smile, and that
+                instant feeling that something real had just started.
+              </p>
+            </article>
+            <article>
+              <span class="story-index">02</span>
+              <h3>The growth</h3>
+              <p>
+                Every conversation made us closer. Every laugh felt lighter. Every challenge
+                became easier when we walked through it together.
+              </p>
+            </article>
+            <article>
+              <span class="story-index">03</span>
+              <h3>The forever</h3>
+              <p>
+                Now we know what love looks like: comfort, excitement, honesty, and a future
+                that feels brighter because we are in it together.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="moments" id="moments">
+          <div class="section-heading">
+            <p class="eyebrow">Our favorite moments</p>
+            <h2>Little memories, big love.</h2>
+          </div>
+
+          <div class="moments-grid">
+            <div class="moment-card card-one">
+              <div class="overlay"></div>
+              <div class="moment-text">
+                <span>Sunset walks</span>
+                <strong>Holding hands, no rush, just us.</strong>
+              </div>
+            </div>
+            <div class="moment-card card-two">
+              <div class="overlay"></div>
+              <div class="moment-text">
+                <span>Inside jokes</span>
+                <strong>Laughing until our hearts race.</strong>
+              </div>
+            </div>
+            <div class="moment-card card-three">
+              <div class="overlay"></div>
+              <div class="moment-text">
+                <span>Late-night dreams</span>
+                <strong>Talking about a life filled with love.</strong>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="letter" id="letter">
+          <div class="section-heading">
+            <p class="eyebrow">A love note</p>
+            <h2>To the one who makes my world feel warm.</h2>
+          </div>
+
+          <blockquote>
+            “You are my favorite person in every universe. You make ordinary days feel like
+            magic, and my heart feels safest when it is with yours.”
+          </blockquote>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Made with all my love, always.</p>
+        <p>© <span id="year"></span> Forever Us</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
